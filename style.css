@@ -13,7 +13,7 @@ li {
 p {
     background-color: gold;
 }
-label {
+input[type="text"], input[type="email"] {
     border: 5px dotted pink;
 }
 .first {
@@ -34,7 +34,7 @@ div:nth-of-type(3) p {
 div:nth-of-type(3) p:nth-of-type(2) {
     border: 7px solid rgb(255, 255, 255);
 }
-input[type="email"] {
+div:nth-of-type(3) em {
     color: seashell;
     font-size: 25px;
 }
